@@ -2,12 +2,9 @@
 library dartwriter;
 
 import 'dart:html' hide Document;
-
 import 'package:web_ui/web_ui.dart';
-
 import 'package:dartwriter/document.dart';
-
-
+import 'package:dartwriter/search.dart';
 
 /// The document currently being written
 Document activeDocument = new Document('Hello Codelab!', 'Try typing in this document!');

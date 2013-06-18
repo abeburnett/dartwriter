@@ -15,7 +15,7 @@
             <button on-click="createDocument()">+</button>
 
             <div class="input-wrap">
-
+                <input  type="text" placeholder="Filter documents..." bind-value="searchFilter">
             </div>
         </div>
 
@@ -25,7 +25,9 @@
             <!-- Iterate over list of documents -->
             <template iterate="doc in documents">
 
-                <x-document-item doc="{{doc}}"></x-document-item>
+                <template if="matchesSearchFilter(doc)">
+                    <x-document-item doc="{{doc}}"></x-document-item>
+                </template>
             </template>
         </div>
     </section>
