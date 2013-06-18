@@ -5,7 +5,9 @@
             <!-- a custom element -->
              <element name="x-document-item" constructor="DocumentItem" extends="div" apply-author-styles>
                  <template>
-                     <div class="item {{isActiveClass}}">
+                     <div class="item {{isActiveClass}}" on-click="app.selectDocument(doc, markActive: true)">
+
+                         <button class="delete" on-click="app.deleteDocument(doc)">&times;</button>
                          <div class="title">{{title}}</div>
                          <div class="modified">{{modified}}</div>
 

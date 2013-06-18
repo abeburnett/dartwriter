@@ -12,6 +12,7 @@
     <section id="sidebar" class="{{sidebarClass}}">
         <div class="toolbar">
 
+            <button on-click="createDocument()">+</button>
 
             <div class="input-wrap">
 
@@ -21,7 +22,11 @@
         <div class="items">
 
 
-            <x-document-item doc="{{activeDocument}}"></x-document-item>
+            <!-- Iterate over list of documents -->
+            <template iterate="doc in documents">
+
+                <x-document-item doc="{{doc}}"></x-document-item>
+            </template>
         </div>
     </section>
 

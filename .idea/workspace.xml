@@ -26,16 +26,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="-6.5384617">
+            <state line="28" column="51" selection-start="847" selection-end="847" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document_item.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="document_item.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/document_item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="640" selection-end="640" vertical-scroll-proportion="-9.807693">
+            <state line="9" column="90" selection-start="426" selection-end="426" vertical-scroll-proportion="0.2723112">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.dart" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.dart" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="43" selection-start="245" selection-end="245" vertical-scroll-proportion="0.33924612">
+            <state line="9" column="43" selection-start="245" selection-end="245" vertical-scroll-proportion="-6.12">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="dartwriter.dart" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/dartwriter.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="106" selection-end="149" vertical-scroll-proportion="-4.76">
+            <state line="61" column="34" selection-start="1611" selection-end="1611" vertical-scroll-proportion="-16.16">
               <folding />
             </state>
           </provider>
@@ -99,11 +99,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/web/dartwriter.html" />
-        <option value="$PROJECT_DIR$/web/dartwriter.dart" />
         <option value="$PROJECT_DIR$/web/dartwriter.css" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/build.dart" />
         <option value="$PROJECT_DIR$/lib/document.dart" />
+        <option value="$PROJECT_DIR$/web/dartwriter.dart" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/document_item.html" />
       </list>
@@ -219,7 +219,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="DartUnit.Test: build">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="file://$PROJECT_DIR$/web/out/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -252,8 +252,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="DartUnit.Test: build" />
+        <item index="0" class="java.lang.String" itemvalue="DartUnit.Test: build" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
         <item index="2" class="java.lang.String" itemvalue="DartUnit.Test: build" />
         <item index="3" class="java.lang.String" itemvalue="DartUnit.Test: build" />
         <item index="4" class="java.lang.String" itemvalue="DartUnit.Test: build" />
@@ -276,8 +276,8 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29207385" sideWeight="0.59297055" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40702948" sideWeight="0.49945712" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29207385" sideWeight="0.59297055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40702948" sideWeight="0.49945712" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40702948" sideWeight="0.5005429" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -375,30 +375,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/build.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="-6.5384617">
+        <state line="9" column="43" selection-start="245" selection-end="245" vertical-scroll-proportion="-6.12">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/dartwriter.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="106" selection-end="149" vertical-scroll-proportion="-4.76">
+        <state line="61" column="34" selection-start="1611" selection-end="1611" vertical-scroll-proportion="-16.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="51" selection-start="847" selection-end="847" vertical-scroll-proportion="-15.038462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/document_item.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="640" selection-end="640" vertical-scroll-proportion="-9.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="245" selection-end="245" vertical-scroll-proportion="0.33924612">
+        <state line="9" column="90" selection-start="426" selection-end="426" vertical-scroll-proportion="0.2723112">
           <folding />
         </state>
       </provider>
