@@ -47,11 +47,11 @@
                 <div class="input-wrap">
 
 
-                    <input type="text" bind-value="activeDocument.title">
+                    <input type="text" bind-value="activeDocument.title" on-key-up="saveDocument(activeDocument)" />
                 </div>
             </div>
 
-            <textarea class="content" bind-value="activeDocument.content"></textarea>
+            <textarea class="content" bind-value="activeDocument.content" on-key-up="saveDocument(activeDocument)"></textarea>
 
             <div class="footer">
                 <!-- show current word cound -->

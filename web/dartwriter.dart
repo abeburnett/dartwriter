@@ -5,6 +5,7 @@ import 'dart:html' hide Document;
 import 'package:web_ui/web_ui.dart';
 import 'package:dartwriter/document.dart';
 import 'package:dartwriter/search.dart';
+import 'package:dartwriter/storage.dart';
 
 /// The document currently being written
 Document activeDocument = new Document('Hello Codelab!', 'Try typing in this document!');
@@ -29,8 +30,7 @@ void createDocument(){
 /// Delete a document
 void deleteDocument(Document doc){
   documents.remove(doc);
-
-
+  removeDocument(doc);
 }
 
 /// Select a document
@@ -52,10 +52,13 @@ void selectDocument(Document doc, {bool markActive: false}) {
 /// Starts the application
 void main(){
 
-  /// Create a new document if there are none
+  // Initialize with all documents from local storage
+  documents.addAll(fetchDocuments());
+
+  // Create a new document if there are none
   if (documents.isEmpty) createDocument();
 
-  /// Select the first document in the list of documents
+  // Select the first document in the list of documents
   selectDocument(documents.first);
 
 
