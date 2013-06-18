@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dart Writer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="dartwriter.css">
+    <link rel="import" href="document_item.html">
+</head>
+<body>
+
+    <section id="sidebar" class="{{sidebarClass}}">
+        <div class="toolbar">
+
+
+            <div class="input-wrap">
+
+            </div>
+        </div>
+
+        <div class="items">
+
+
+            <x-document-item doc="{{activeDocument}}"></x-document-item>
+        </div>
+    </section>
+
+    <!-- Editing window -->
+    <section id="main" class="{{mainClass}}">
+
+        <!-- Only have a title and content box if a document is selected -->
+        <template if="activeDocument != null">
+
+            <div class="title">
+                <!-- Button to go back to document list.
+                    Only visible in a small viewport. -->
+                    <button on-click="contentActive = false">&lt;</button>
+
+                <!-- Document title -->
+                <div class="input-wrap">
+
+
+                    <input type="text" bind-value="activeDocument.title">
+                </div>
+            </div>
+
+            <textarea class="content" bind-value="activeDocument.content"></textarea>
+
+            <div class="footer">
+                <!-- show current word cound -->
+                {{activeDocument.wordCount}}
+
+            </div>
+        </template>
+
+
+    </section>
+
+    <!-- Main application code -->
+    <script type="application/dart" src="dartwriter.dart"></script>
+
+    <!-- Bootstrap script -->
+    <script src="packages/browser/dart.js"></script>
+</body>
+</html>

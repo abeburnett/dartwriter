@@ -1,0 +1,5 @@
+name: dartwriter
+dependencies:
+  browser: any
+  web_ui: any
+  intl: any
